@@ -1,7 +1,7 @@
 # 🐾 ERP Veterinaria Huellitas - Primer Parcial (Laravel RAD)
 
 **Institución:** COTECNOVA - 2026  
-**Asignatura:** Seminario Desarrollo de Aplicaciones Web en Laravel con Enfoque RAD  
+**Asignatura:** Software de Gestión Empresarial  
 **Integrantes:**  
 * 👨‍💻 **Esteban Molina** (Líder de Análisis y Documentación)  
 * 👨‍💻 **Heiber Lozano** (Desarrollador de Código Laravel)  
