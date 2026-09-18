@@ -1,30 +1,16 @@
-# 🐾 ERP Veterinaria Huellitas - Primer Parcial (Laravel RAD)
+# 🐾 Análisis de Negocio y Diseño ERP: Veterinaria Huellitas
 
-**Institución:** COTECNOVA - 2026  
-**Asignatura:** Seminario Desarrollo de Aplicaciones Web en Laravel con Enfoque RAD  
-**Integrantes:**  
-* 👨‍💻 **Esteban Molina** (Líder de Análisis y Documentación)  
-* 👨‍💻 **Heiber Lozano** (Desarrollador de Código Laravel)  
-**Repositorio GitHub:** [https://github.com/moliech/parcial1-erp](https://github.com/moliech/parcial1-erp)  
-**Rama Oficial de Entrega:** `parcial`
-
----
-
-## 📌 Navegación de Entregables
-
-| Entregable | Ubicación en el Repositorio | Estado |
-| :--- | :--- | :---: |
-| 📄 **Documento de Análisis, MER y Solución Teórica** | [`docs/parcial/analisis_veterinaria.md`](docs/parcial/analisis_veterinaria.md) | ✅ Completado |
-| 📸 **Evidencias y Capturas de Pantalla MySQL** | [`docs/parcial/capturas/`](docs/parcial/capturas/) | ⏳ En proceso |
-| 🛠️ **Migraciones de la Base de Datos** | [`database/migrations/`](database/migrations/) | ✅ Listo |
-| 📦 **Modelos Eloquent y Relaciones** | [`app/Models/`](app/Models/) | ✅ Listo |
-| 🌱 **Seeders de Datos de Prueba** | [`database/seeders/ClientSeeder.php`](database/seeders/ClientSeeder.php) | ✅ Listo |
+| Información del Proyecto | Detalles |
+| :--- | :--- |
+| **Asignatura** | Software de Gestión Empresarial |
+| **Institución** | COTECNOVA - 2026 |
+| **Integrantes** | 👨‍💻 **Esteban Molina** & **Heiber Lozano** |
+| **Repositorio GitHub** | [https://github.com/moliech/parcial1-erp](https://github.com/moliech/parcial1-erp) |
+| **Rama Oficial** | `parcial` |
 
 ---
 
-# 📝 MAQUETACIÓN Y PLANTILLA DE RESPUESTAS DEL PARCIAL
-
-## 1. Análisis del Negocio (30%)
+## 1. Análisis del Negocio
 
 ### 1.1 Datos Generales
 * **Nombre de la Empresa:** Veterinaria Huellitas
@@ -50,7 +36,7 @@
 
 ---
 
-## 2. Diseño del Modelo de Datos (30%)
+## 2. Diseño del Modelo de Datos
 
 ### 2.1 Diagrama Entidad-Relación (MER)
 
@@ -146,7 +132,7 @@ erDiagram
 
 ---
 
-## 3. Propuesta de Solución ERP (20%)
+## 3. Propuesta de Solución ERP
 
 ### 3.1 Módulos del Sistema ERP (5 Módulos)
 1. **Módulo de Clientes y Mascotas:** Permite registrar los datos de los propietarios y asociar sus mascotas como pacientes.
@@ -169,26 +155,3 @@ erDiagram
 * ✅ **Reducción de errores:** La centralización de la información disminuye la duplicidad de registros y facilita el control de ventas e inventario.
 * ✅ **Mejor control del inventario:** Permite consultar existencias y detectar oportunamente productos que requieren reabastecimiento.
 * ✅ **Información para la toma de decisiones:** Los registros centralizados permiten generar reportes e indicadores sobre ventas, servicios e inventario.
-
----
-
-## 4. Implementación Básica en Laravel (20%)
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/moliech/parcial1-erp.git
-cd parcial1-erp
-
-# 2. Pasarse a la rama oficial del parcial
-git checkout parcial
-
-# 3. Iniciar Docker Sail (o PHP local)
-./vendor/bin/sail up -d
-
-# 4. Ejecutar migraciones y seeders
-./vendor/bin/sail php artisan migrate:fresh --seed
-
-# 5. Probar con Tinker
-./vendor/bin/sail php artisan tinker
-# App\Models\Client::all();
-```
